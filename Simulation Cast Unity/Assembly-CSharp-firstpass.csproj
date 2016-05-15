@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0BD2562D-6200-465F-AF85-1FE05499BC04}</ProjectGuid>
+    <ProjectGuid>{258BA62C-98AC-08AA-EE39-2C2AB96E02F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -62,10 +62,10 @@
  <HintPath>/Applications/UnityBeta/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/Hafiz/UNITY PROJECTS/Simulation Cast/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Users/Hafiz/PROGRAMMING/SimulationCast/Simulation Cast Unity/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>/Users/Hafiz/UNITY PROJECTS/Simulation Cast/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>/Users/Hafiz/PROGRAMMING/SimulationCast/Simulation Cast Unity/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8128336D-E4B5-5310-0936-9DEE341E0966}</ProjectGuid>
+    <ProjectGuid>{BE5E4A4C-5B11-4812-2751-5DA417FD4901}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -179,6 +179,7 @@
      <Compile Include="Assets\SCButtonFlashRPC.cs" />
      <Compile Include="Assets\scrDisableIfDropdownNotModerator.cs" />
      <Compile Include="Assets\scrRoleText.cs" />
+     <Compile Include="Assets\updateTextToSlider.cs" />
      <None Include="Assets\Misc\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
@@ -195,15 +196,15 @@
  <HintPath>/Applications/UnityBeta/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/Hafiz/UNITY PROJECTS/Simulation Cast/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Users/Hafiz/PROGRAMMING/SimulationCast/Simulation Cast Unity/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>/Users/Hafiz/UNITY PROJECTS/Simulation Cast/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>/Users/Hafiz/PROGRAMMING/SimulationCast/Simulation Cast Unity/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{0BD2562D-6200-465F-AF85-1FE05499BC04}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{258BA62C-98AC-08AA-EE39-2C2AB96E02F8}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
