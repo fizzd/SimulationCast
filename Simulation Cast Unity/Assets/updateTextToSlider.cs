@@ -4,7 +4,7 @@ using System.Collections;
 
 public class updateTextToSlider : MonoBehaviour
 {
-
+	public int id;
 	public Slider slider;
 	public Text text;
 
@@ -14,9 +14,11 @@ public class updateTextToSlider : MonoBehaviour
 	
 	}
 	
-	// Update is called once per frame
+	// updates text and the value to be pushed
 	void Update ()
 	{
-		text.text = slider.value.ToString ();
+		int sliderInt = Mathf.FloorToInt (slider.value);
+		text.text = sliderInt.ToString ();
+		GC.vitalsModeratorNum [id] = sliderInt;
 	}
 }

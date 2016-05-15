@@ -45,8 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GC.cs" />
-     <Compile Include="Assets\GoToGame.cs" />
      <Compile Include="Assets\Misc\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\Demo2DJumpAndRun.cs" />
      <Compile Include="Assets\Misc\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\JumpAndRunMovement.cs" />
      <Compile Include="Assets\Misc\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayer.cs" />
@@ -175,10 +173,20 @@
      <Compile Include="Assets\Misc\PhotonChatApi\ChatState.cs" />
      <Compile Include="Assets\Misc\PhotonChatApi\ChatUserStatus.cs" />
      <Compile Include="Assets\Misc\PhotonChatApi\IChatClientListener.cs" />
-     <Compile Include="Assets\OnlyShowIfRole.cs" />
-     <Compile Include="Assets\SCButtonFlashRPC.cs" />
+     <Compile Include="Assets\OnlyDisableIfRole.cs" />
+     <Compile Include="Assets\PopupManage.cs" />
+     <Compile Include="Assets\Scripts\GC.cs" />
+     <Compile Include="Assets\Scripts\GoToGame.cs" />
+     <Compile Include="Assets\Scripts\OnlyShowIfRole.cs" />
+     <Compile Include="Assets\Scripts\PropertiesSetup.cs" />
+     <Compile Include="Assets\Scripts\SCButtonFlashRPC.cs" />
+     <Compile Include="Assets\Scripts\SyncProperties.cs" />
+     <Compile Include="Assets\Scripts\scrRoleText.cs" />
+     <Compile Include="Assets\Scripts\scrVital.cs" />
+     <Compile Include="Assets\StartSimulation.cs" />
+     <Compile Include="Assets\TriggerStatusChange.cs" />
      <Compile Include="Assets\scrDisableIfDropdownNotModerator.cs" />
-     <Compile Include="Assets\scrRoleText.cs" />
+     <Compile Include="Assets\situationtextUpdate.cs" />
      <Compile Include="Assets\updateTextToSlider.cs" />
      <None Include="Assets\Misc\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />

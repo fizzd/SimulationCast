@@ -1,0 +1,227 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/UnityBeta/Unity.app/Contents/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/UnityBeta/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/UnityBeta/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'Assets/Plugins/Photon3Unity3D.dll'
+-r:'Assets/Plugins/WebSocket/websocket-sharp.dll'
+-r:'/Applications/UnityBeta/Unity.app/Contents/Managed/UnityEditor.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_0
+-define:UNITY_5_4
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_OSX
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+'Assets/Misc/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics/Scripts/Demo2DJumpAndRun.cs'
+'Assets/Misc/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics/Scripts/JumpAndRunMovement.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoBoxes/ColorPerPlayer.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoBoxes/ColorPerPlayerApply.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoBoxes/DemoBoxesGui.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoBoxes/OnAwakePhysicsSettings.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoBoxes/OnClickFlashRpc.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoBoxes/OnDoubleclickDestroy.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/ClickAndDrag.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/DemoOwnershipGui.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/InstantiateCube.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/MaterialPerOwner.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/OnClickDisableObj.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/OnClickRequestOwnership.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChangeOwner/OnClickRightDestroy.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChat/ChatGui.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoChat/NamePickGui.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/GUICustomAuth.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/GUIFriendFinding.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/GUIFriendsInRoom.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoFriendsAndCustomAuth/OnClickCallMethod.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoHub/HubGui.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoHub/MoveCam.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoHub/ToHubButton.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoMecanim/Scripts/DemoMecanimGUI.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/MessageOverlay.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/OnCollideSwitchTeam.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/OnPickedUpScript.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupCamera.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupController.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupDemoGui.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoPickup/Scripts/PickupTriggerForward.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRPGMovement/Scripts/DemoRPGMovement.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRPGMovement/Scripts/RPGCamera.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRPGMovement/Scripts/RPGMovement.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/PunTurnManager.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/RpsCore.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/RpsDebug.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoRockPaperScissors/Scripts/RpsDemoConnect.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoSynchronization/CubeExtra.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoSynchronization/CubeInter.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoSynchronization/CubeLerp.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoSynchronization/DragToMove.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoSynchronization/IELdemo.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoWorker/Scripts/Game/Player/ThirdPersonCamera.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoWorker/Scripts/Game/Player/ThirdPersonController.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoWorker/Scripts/Game/Player/ThirdPersonNetwork.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoWorker/Scripts/WorkerInGame.cs'
+'Assets/Misc/Photon Unity Networking/Demos/DemoWorker/Scripts/WorkerMenu.cs'
+'Assets/Misc/Photon Unity Networking/Demos/MarcoPolo-Tutorial/AudioRpc.cs'
+'Assets/Misc/Photon Unity Networking/Demos/MarcoPolo-Tutorial/ClickDetector.cs'
+'Assets/Misc/Photon Unity Networking/Demos/MarcoPolo-Tutorial/GameLogic.cs'
+'Assets/Misc/Photon Unity Networking/Demos/MarcoPolo-Tutorial/Monstergame/Resources/Scripts/myThirdPersonController.cs'
+'Assets/Misc/Photon Unity Networking/Demos/MarcoPolo-Tutorial/NetworkCharacter.cs'
+'Assets/Misc/Photon Unity Networking/Demos/MarcoPolo-Tutorial/RandomMatchmaker.cs'
+'Assets/Misc/Photon Unity Networking/Demos/Shared Assets/Scripts/IdleRunJump.cs'
+'Assets/Misc/Photon Unity Networking/Demos/Shared Assets/Scripts/PlayerDiamond.cs'
+'Assets/Misc/Photon Unity Networking/Demos/Shared Assets/Scripts/PlayerVariables.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/RpcIndexComponent.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/SocketWebTcp.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs'
+'Assets/Misc/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/ConnectAndJoinRandom.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/HighlightOwnedGameObj.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/InRoomChat.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/InRoomRoundTimer.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/InRoomTime.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/InputToEvent.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/ManualPhotonViewAllocator.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/MoveByKeys.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/OnAwakeUsePhotonView.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/OnClickDestroy.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/OnClickInstantiate.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/OnClickLoadSomething.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/OnJoinedInstantiate.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/OnStartDelete.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/PickupItem.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/PickupItemSimple.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/PickupItemSyncer.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/PointedAtGameObjectInfo.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/PunPlayerScores.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/PunTeams.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/QuitOnEscapeOrBack.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/ServerTime.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/ShowInfoOfPlayer.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/ShowStatusWhenConnecting.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/SmoothSyncMovement.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/SupportLogger.cs'
+'Assets/Misc/Photon Unity Networking/UtilityScripts/TimeKeeper.cs'
+'Assets/Misc/PhotonChatApi/ChatChannel.cs'
+'Assets/Misc/PhotonChatApi/ChatClient.cs'
+'Assets/Misc/PhotonChatApi/ChatDisconnectCause.cs'
+'Assets/Misc/PhotonChatApi/ChatEventCode.cs'
+'Assets/Misc/PhotonChatApi/ChatOperationCode.cs'
+'Assets/Misc/PhotonChatApi/ChatParameterCode.cs'
+'Assets/Misc/PhotonChatApi/ChatPeer.cs'
+'Assets/Misc/PhotonChatApi/ChatState.cs'
+'Assets/Misc/PhotonChatApi/ChatUserStatus.cs'
+'Assets/Misc/PhotonChatApi/IChatClientListener.cs'
+'Assets/OnlyDisableIfRole.cs'
+'Assets/PopupManage.cs'
+'Assets/Scripts/GC.cs'
+'Assets/Scripts/GoToGame.cs'
+'Assets/Scripts/OnlyShowIfRole.cs'
+'Assets/Scripts/PropertiesSetup.cs'
+'Assets/Scripts/SCButtonFlashRPC.cs'
+'Assets/Scripts/SyncProperties.cs'
+'Assets/Scripts/scrRoleText.cs'
+'Assets/Scripts/scrVital.cs'
+'Assets/scrDisableIfDropdownNotModerator.cs'
+'Assets/updateTextToSlider.cs'
+-r:'/Applications/UnityBeta/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/UnityBeta/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
