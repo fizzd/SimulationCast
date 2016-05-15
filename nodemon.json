@@ -1,5 +1,0 @@
-{
-	"verbose": true,
-	"ignore": [".git"],
-	"watch": ["server/","public/"]
-}
